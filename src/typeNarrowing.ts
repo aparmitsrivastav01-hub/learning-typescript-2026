@@ -81,7 +81,7 @@ function makeChai(order: chai){
         case "ginger":
             return "ginger chai"
             break;
-
+ 
         case "elaichi":
             return "masala chai"
             break;
@@ -95,5 +95,7 @@ function brew(order: masalaChai| gingerChai){
     }
 }
 
-function
+// function isStringArray(arr:unknown): arr is string[]{
+    
+// }
 
