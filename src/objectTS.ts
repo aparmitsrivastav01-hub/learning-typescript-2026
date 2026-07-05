@@ -103,4 +103,18 @@ type Chai2 = {
     ingredients: string[]
 }
 
-type BasicChaiInfo = Pick<Chai2,"name"|"price">;
+type BasicChaiInfo = Pick<Chai2,"name"|"price">;  // particular propertiess par hi work karna 
+
+const chaiInfo: BasicChaiInfo = {
+    name: "LEMON TEA",
+    price: 20
+}
+
+type Chai3 = {
+    name: string;
+    price: number;
+    isHot: boolean;
+    secretIngredients: string
+}
+
+type PublicChai = Omit<Chai3,"secretIngredients">  // chodh doo hata do bc 
