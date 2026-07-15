@@ -1,5 +1,3 @@
-
-
 const chaiFlavours: string[] = ["Masala","Adrak"]
 const chaiPricing: number[]  = [10,20]
 
